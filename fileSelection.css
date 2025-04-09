@@ -1,0 +1,63 @@
+html {
+  font-size: 62.5%;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bimplusFrame {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#frameOpener {
+  border: solid 0.2rem #fe5000 !important;
+  color: #ffffff !important;
+  background-color: #fe5000 !important;
+  min-height: 2.2rem;
+  font: normal bold 1.28rem "Source Sans Pro", Helvetica, Arial, tahoma,
+    sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 0.8rem !important;
+  padding: 0.2rem 1rem 0.4rem 1rem !important;
+  height: 2.4rem;
+  white-space: nowrap;
+  border-radius: 0.2rem !important;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  outline: 0 !important;
+  min-width: 2rem;
+  cursor: pointer;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#frameOpener:hover,
+#frameOpener.hover,
+#frameOpener:focus,
+#frameOpener.focus {
+  border: solid 0.2rem #eb4b00 !important;
+  color: #ffffff !important;
+  background-color: #eb4b00 !important;
+  outline: 0;
+}
+
+.hidden {
+  display: none !important;
+}

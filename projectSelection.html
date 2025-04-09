@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BimplusRendererExample</title>
+    <script
+      type="text/javascript"
+      src="node_modules/jquery/dist/jquery.js"
+    ></script>
+    <script src="require-config.js"></script>
+    <script
+      src="node_modules/requirejs/require.js"
+      data-main="projectSelection.js"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/material-design-lite/material.min.css"
+    />
+    <script src="node_modules/material-design-lite/material.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.grey-orange.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="mdl-card mdl-shadow--4dp center">
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Select project</h2>
+      </div>
+      <div class="mdl-card__media">
+        <iframe
+          title="Projects"
+          id="projects"
+          style="
+            text-align: left;
+            border: 0;
+            height: 1000px;
+            width: 100%;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+          "
+        >
+        </iframe>
+      </div>
+    </div>
+  </body>
+</html>

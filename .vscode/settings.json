@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5505,
+    "sonarlint.connectedMode.project": {
+        "connectionId": "https-sonarqube-allplan-org",
+        "projectKey": "PORTAL_websdk_AYd2Gl4rQ0aKFo1jplh0"
+    }
+}
