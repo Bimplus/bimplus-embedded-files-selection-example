@@ -13,8 +13,8 @@
     "serve": "live-server --verbose"
   },
   "devDependencies": {
-    "bimplus-webclient": "0.1.57",
-    "bimplus-websdk": "1.0.46",
+    "bimplus-webclient": "0.1.58",
+    "bimplus-websdk": "1.0.47",
     "jquery": "3.7.1",
     "requirejs": "2.3.7"
   },
