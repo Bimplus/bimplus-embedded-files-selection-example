@@ -10,15 +10,17 @@
   },
   "license": "MIT",
   "scripts": {
-    "serve": "live-server --verbose"
+    "serve": "live-server --verbose --host=localhost --port=8080"
   },
   "devDependencies": {
-    "bimplus-webclient": "0.1.62",
-    "bimplus-websdk": "1.0.51",
+    "bimplus-webclient": "0.1.63",
+    "bimplus-websdk": "1.0.56",
     "jquery": "3.7.1",
     "requirejs": "2.3.7"
   },
   "dependencies": {
-    "material-design-lite": "1.3.0"
+    "live-server": "^1.2.2",
+    "material-design-lite": "1.3.0",
+    "oidc-client-ts": "^3.3.0"
   }
 }
