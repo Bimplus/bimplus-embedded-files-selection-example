@@ -17,13 +17,13 @@ Install yarn to replace npm usage
     npm install --global yarn
 
 ### Install global npm modules
-Install live-server package for auto reload and convenient development
+Install http-server package for auto reload and convenient development
 
-    npm install -g live-server
+    npm install -g http-server
 
 With yarn (replacement)
 
-    yarn global add live-server
+    yarn global add http-server
 
 ### Install local npm modules
 Open up a normal command line (admin is not needed) and go to the application folder
